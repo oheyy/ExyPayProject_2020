@@ -9,7 +9,7 @@ public class SubscriptionRequest {
     public String currency;
     public String dayOfWeek;
 
-    public int getAmountValue() { return amountValue; }
+    public Integer getAmountValue() { return amountValue; }
 
     public void setAmountValue(Integer amountValue) {
         this.amountValue = amountValue;
